@@ -2,7 +2,7 @@ async function fetchData(){
     try{
 
         const PolyUser = document.getElementById("PolyName").value;
-        const proxyUrl = 'https://corsproxy.io/?key=ee73543a&url=';
+        const proxyUrl = 'https://corsproxy.io/?key=______url='; // add corsproxy key
         const url = 'https://api.polytoria.com/v1/users/'+PolyUser;
         const response = await fetch(proxyUrl + url);
 
