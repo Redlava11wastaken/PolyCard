@@ -57,7 +57,6 @@ html, body {
     font-family: Arial,sans-serif;
 }
 .input-button-container {
-    display: flex; /* Arrange input and button in a row */
-    align-items: center; /* Vertically align items in the container */
-    /* You can add margin or padding here to control spacing around the container */
+    display: flex;
+    align-items: center;
   }
