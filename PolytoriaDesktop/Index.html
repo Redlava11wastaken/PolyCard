@@ -4,14 +4,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" id="PolyName" placeholder="Enter Polytoria ID">
-    <button onclick="fetchData()">Enter</button><br>
-    <br>
-    <div class="CardContainer">
-        <p class="username" id="username">name</p>
-        <p class="member" id="member"></p>
-        <img src="card.png" class="Card" id="Card">
-        <img src="" id="PolyAvatar" class="PolyAvatar" style="display: none">
+    <div class="Container">
+        <div class="CardContainer">
+            <p class="username" id="username">name</p>
+            <p class="member" id="member"></p>
+            <img src="card.png" class="Card" id="Card">
+            <img src="" id="PolyAvatar" class="PolyAvatar" style="display: none">
+        </div>
+        <div class="input-button-container">
+            <input type="text" id="PolyName" placeholder="Enter Polytoria ID">
+            <button onclick="fetchData()">Enter</button>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>
